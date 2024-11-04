@@ -1,0 +1,26 @@
+{
+  "button_pins": {
+    "GP1": [
+      "SHIFT",
+      "C"
+    ],
+    "GP2": [
+      "SHIFT",
+      "I"
+    ],
+    "GP14": [
+      "SHIFT",
+      "T"
+    ],
+    "GP15": [
+      "SHIFT",
+      "Y"
+    ]
+  },
+  "led_intensities": [
+    30,
+    30,
+    30,
+    30
+  ]
+}
