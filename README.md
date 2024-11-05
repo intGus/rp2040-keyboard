@@ -25,7 +25,9 @@ This project is a USB HID keyboard program written in CircuitPython, designed to
 
 ## Configuration
 
-Edit the `keyboard_config.json` file to define button actions and LED intensities. Each button can be mapped to either:
+To set up your keyboard, you can use the web configurator at [https://keyboard-manager.gusdiaz.dev](https://keyboard-manager.gusdiaz.dev). Simply load the configuration file from the root of your board and connect using Web Serial. The UI will guide you through assigning keys and customizing settings.
+
+Alternatively, you can configure manually by editing the keyboard_config.json file. Define button actions and LED intensities, where each button can be mapped to:
 - **Keycodes**: Specify an array of key names (e.g., `"CONTROL", "C"`)
 - **String**: Specify a string that will be typed when the button is pressed (e.g., `"Hello, World!"`).
 
@@ -46,6 +48,16 @@ Example `keyboard_config.json`:
 Load the code and keyboard_config.json file onto the RP2040 board.
 Connect buttons and LEDs to the GPIO pins as specified in the configuration.
 Upon pressing a button, the specified keycodes or string will be sent to the connected computer.
+
+## Development Tools
+
+For editing and managing files on your RP2040 board, we recommend using either [ViperIDE](https://viper-ide.org/) or [Thonny](https://thonny.org/):
+
+- **ViperIDE**: An web-based IDE designed for microcontroller programming. ViperIDE offers a clean interface and tools tailored for MicroPython and CircuitPython development.
+- **Thonny**: An easy-to-use Python IDE with built-in support for CircuitPython and MicroPython. It allows you to edit files directly on the board, view the serial output, and install libraries.
+
+Both tools provide straightforward access to the board’s filesystem, making it easier to edit your `keyboard_config.json` and `code.py` files, manage libraries, and debug code in real-time.
+
 
 ## Troubleshooting
 Ensure the keyboard_config.json file is properly formatted.
