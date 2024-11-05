@@ -51,7 +51,7 @@ Upon pressing a button, the specified keycodes or string will be sent to the con
 
 ## Development Tools
 
-For editing and managing files on your RP2040 board, we recommend using either [ViperIDE](https://viper-ide.org/) or [Thonny](https://thonny.org/):
+For editing and managing files on your RP2040 board, I recommend using either [ViperIDE](https://viper-ide.org/) or [Thonny](https://thonny.org/):
 
 - **ViperIDE**: An web-based IDE designed for microcontroller programming. ViperIDE offers a clean interface and tools tailored for MicroPython and CircuitPython development.
 - **Thonny**: An easy-to-use Python IDE with built-in support for CircuitPython and MicroPython. It allows you to edit files directly on the board, view the serial output, and install libraries.
